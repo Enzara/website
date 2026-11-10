@@ -88,6 +88,9 @@ main section + section{border-top:1px solid var(--line)}
 .track li.done::before{background:var(--teal)}
 .track li.done::after{background:var(--teal);border-color:var(--teal)}
 .track li.next::after{border-color:var(--teal)}
+.track li.half::before{background:linear-gradient(to right,var(--teal) 50%,var(--line) 50%)}
+.track li.half::after{background:var(--teal);border-color:var(--teal)}
+.track li.half .st{color:var(--teal)}
 .track .st{font:500 .7rem/1.3 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .track li.done .st,.track li.next .st{color:var(--teal)}
 .track h3{font-size:1rem}

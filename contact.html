@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Contact · Enzara Therapeutics</title><meta name="description" content="Enzara Therapeutics is developing Cyst(e)inase, an engineered human enzyme therapy for glioblastoma.">
+<meta property="og:title" content="Contact · Enzara Therapeutics"><meta property="og:description" content="Enzara Therapeutics is developing Cyst(e)inase, an engineered human enzyme therapy for glioblastoma."><meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap"><link rel="stylesheet" href="assets/styles.css">
+</head><body><header class="site-head"><div class="wrap"><a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="52 17" stroke-linecap="round" transform="rotate(-35 16 16)"/><circle cx="16" cy="16" r="3.6" fill="var(--mint)"/></svg><span>ENZARA<small>Therapeutics</small></span></a><nav class="nav" aria-label="Main"><a href="science.html">Science</a><a href="leadership.html">Leadership</a><a href="investors.html">Investors</a><a href="news.html">News</a><a href="contact.html" aria-current="page">Contact</a></nav></div></header><div class="band"><div class="wrap page-head"><p class="eyebrow">Contact</p><h1>Get in touch</h1><p class="lede">For partnerships, investment, research collaboration or media, email us and we will route your note to the right person.</p></div></div>
+<main>
+<section><div class="wrap grid2" style="align-items:start">
+  <div class="card">
+    <p class="eyebrow">Email</p>
+    <p class="addr" id="addr">info@enzara-therapeutics.com</p>
+    <div class="copy-row"><button class="btn btn-line" type="button" id="copyBtn">Copy address</button><a class="btn btn-line" href="mailto:info@enzara-therapeutics.com">Open in email</a><span class="copied" id="copied" hidden>Copied</span></div>
+  </div>
+  <div class="grid2" style="gap:1.25rem">
+    <div class="point"><h3>Texas</h3><p>Austin, Texas</p></div>
+    <div class="point"><h3>Maryland</h3><p>Maryland</p></div>
+  </div>
+</div></section>
+<section><div class="wrap">
+  <div class="sec-head"><p class="eyebrow">Reasons to write</p><h2>How we can help</h2></div>
+  <div class="grid3">
+    <div class="point"><h3>Investors</h3><p>Company overview and financing discussions.</p></div>
+    <div class="point"><h3>Partners</h3><p>Manufacturing, clinical and strategic collaborations.</p></div>
+    <div class="point"><h3>Patients and families</h3><p>Cyst(e)inase is not yet in clinical trials. We will post trial information here when a study opens.</p></div>
+  </div>
+</div></section>
+</main>
+<script>
+(function(){var b=document.getElementById('copyBtn');if(!b)return;b.addEventListener('click',function(){
+ var t=document.getElementById('addr').textContent,ok=document.getElementById('copied');
+ function show(){ok.hidden=false;setTimeout(function(){ok.hidden=true},1800)}
+ function sel(){var r=document.createRange();r.selectNodeContents(document.getElementById('addr'));var s=getSelection();s.removeAllRanges();s.addRange(r)}
+ try{navigator.clipboard.writeText(t).then(show,sel)}catch(e){sel()}
+})})();
+</script><footer class="site-foot"><div class="wrap"><div class="foot-top"><a class="brand" href="index.html" style="color:var(--band-ink)"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="52 17" stroke-linecap="round" transform="rotate(-35 16 16)"/><circle cx="16" cy="16" r="3.6" fill="var(--mint)"/></svg><span>ENZARA<small>Therapeutics</small></span></a><nav class="nav" aria-label="Footer"><a href="science.html">Science</a><a href="leadership.html">Leadership</a><a href="investors.html">Investors</a><a href="news.html">News</a><a href="contact.html">Contact</a></nav></div>
+<div class="legal"><p>Cyst(e)inase is an investigational agent. It has not been approved by the U.S. Food and Drug Administration or any other regulatory authority.</p><p>© 2026 Enzara Therapeutics. Austin, Texas · Maryland.</p></div></div></footer></body></html>

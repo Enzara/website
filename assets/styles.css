@@ -66,6 +66,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .diagram .t-strong{fill:var(--band-ink)}
 .figcap{font:400 .78rem/1.5 var(--f-mono);color:var(--band-muted);margin-top:.6rem}
 
+.fig2{margin:0;background:#F4F7F9;border-radius:12px;padding:14px 12px 12px}
+.diagram2{width:100%;height:auto;display:block}
+.fig2 .figcap{color:#4A5B6C;margin-top:.5rem}
 /* sections */
 main section{padding-block:3.5rem}
 main section + section{border-top:1px solid var(--line)}
